@@ -1,0 +1,22 @@
+# koyeb.yaml — Koyeb service configuration
+# This file is optional; you can also configure via Koyeb dashboard
+
+name: ats-resume-checker-api
+type: web
+
+build:
+  type: buildpack
+  builder: heroku/builder:22
+
+run:
+  command: uvicorn main:app --host 0.0.0.0 --port $PORT
+
+env:
+  - key: PYTHON_VERSION
+    value: "3.11"
+
+health_checks:
+  - path: /health
+    port: 8000
+    initial_delay: 5
+    period: 30
