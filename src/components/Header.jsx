@@ -32,7 +32,7 @@ export default function Header() {
             ATS Resume Check
           </div>
           <div style={{ fontSize: '0.65rem', color: '#7070a0', letterSpacing: '0.04em' }}>
-            FREE ATS ANALYZER by RAVI RANJAN
+            FREE ATS ANALYZER
           </div>
         </div>
       </a>
