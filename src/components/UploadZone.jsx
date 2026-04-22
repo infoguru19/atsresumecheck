@@ -172,7 +172,7 @@ export default function UploadZone({ file, loading, error, onSelect, onDelete, o
 
       <div className="fade-up-2" style={{
         marginTop:'1.25rem', textAlign:'center',
-        color:'var(--dim)', fontSize:'0.78rem',
+        color:'#1a2332', fontSize:'0.78rem',
         display:'flex', alignItems:'center', justifyContent:'center', gap:'0.4rem',
       }}>
         <span>🔒</span>
