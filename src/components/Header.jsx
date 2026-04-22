@@ -33,6 +33,9 @@ export default function Header() {
           <div style={{ fontSize:'0.62rem', color:'#8896a8', letterSpacing:'0.06em', textTransform:'uppercase' }}>
             Free ATS Analyzer
           </div>
+          <div style={{ fontSize:'0.62rem', color:'#1a2332', letterSpacing:'0.06em', textTransform:'uppercase' }}>
+            by Ravi Ranjan
+          </div>
         </div>
       </a>
       <nav style={{ display:'flex', gap:'1.75rem', alignItems:'center' }}>
