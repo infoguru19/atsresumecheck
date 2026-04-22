@@ -8,6 +8,7 @@ The handler receives a multipart/form-data request with a 'file' field.
 
 from http.server import BaseHTTPRequestHandler
 import json, os, re, tempfile, io, cgi
+from pypdf import PdfReader
 
 
 # ══════════════════════════════════════════════════════════════
