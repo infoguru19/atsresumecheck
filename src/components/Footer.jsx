@@ -42,7 +42,7 @@ export default function Footer() {
         <span style={{ color:'var(--dim)', fontSize:'0.78rem' }}>
           © {new Date().getFullYear()} <a href="https://atsresumecheck.vercel.app" style={{ color:'var(--teal)' }}>atsresumecheck.vercel.app</a>
         </span>
-        <span style={{ color:'var(--dim)', fontSize:'0.78rem' }}>🔒 Privacy-first · No data stored · Free forever</span>
+        <span style={{ color:'var(--dim)', fontSize:'0.78rem' }}>🔒 Privacy-first · No data stored · Free forever . Owned by Ravi Ranjan</span>
       </div>
     </footer>
   )
